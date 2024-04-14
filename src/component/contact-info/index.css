@@ -1,0 +1,41 @@
+.contact__block{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: flex-start;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.contact__header{
+    display: flex;
+    gap: 20px;
+}
+
+.info__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.info__sub-block{
+    display: flex;
+    gap: 16px;
+}
+
+.info__sub-value{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.info__sub-value:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    background-color: black;
+}
